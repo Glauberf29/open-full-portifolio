@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlauberDev</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="assets/LogoSizeFavicon/logo_size_invert.jpg" />
+</head>
+
+
+
+
+<body>
+
+    <!-- header area -->
+    <header id="header">
+        <div class="row m-0">
+            <div class="col-3 bgcolor-black">
+                <nav class="primary-nav navbar-expand-md gradient">
+                    <div class="site-title text-center text-light py-5">
+                        <a href="#" class="navbar-brand font-staat font-size-40"></a>
+                        <a href="#home" class="description text-uppercase font-os"
+                            style="text-decoration: none; color: #ffffff;">Glauber Magalhães</a>
+
+                    </div>
+                    <div class="d-flex flex-column">
+                        <a href="#home" class="nav-item nav-link text-white-50 font-os font-size-16 active">Início</a>
+                        <a href="#about_me" class="nav-item nav-link text-white-50 font-os font-size-16 active">Sobre
+                            Mim</a>
+                        <a href="#services"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active">Serviços</a>
+                        <a href="#portfolio"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active">Portfolio</a>
+                        <a href="#news" class="nav-item nav-link text-white-50 font-os font-size-16 active">Nóticias</a>
+                        <a href="#contact_us"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active">Contato
+                        </a>
+                        <a href="formsingin/admin.html"
+                            class="nav-item nav-link text-white-50 font-os font-size-20 text-center"><i
+                                class="iconsingin fas fa-sign-out-alt"></i></a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <button class="toggle-button"><span class="fas fa-bars fa-2x"></span></button>
+        <div class="social">
+            <span class="mr-3"><i class="fab fa-facebook-f"></i></span>
+            <span class="mr-3"><i class="fab fa-twitter"></i></span>
+            <span class="mr-3"><i class="fab fa-instagram"></i></span>
+            <span class="mr-3"><i class="fab fa-youtube"></i></span>
+        </div>
+    </header>
+    <!-- #header area -->
+
+    <main id="site-main">
+        <div class="row m-0">
+            <div class="col-md-9 offset-md-3 px-0">
+
+                <!-- site-banner area -->
+                <section class="site-banner" id="home">
+                    <div class="banner-area">
+                        <div class="author text-center">
+                            <div class="author-img"></div>
+                            <h1 class="text-white font-staat font-size-40 text-uppercase py-3">Glauber Magalhães</h1>
+                            <h5 class="text-white font-ram font-size-27">i'm <span id="typed"></span></h5>
+                        </div>
+                    </div>
+                </section>
+                <!-- #site-banner area -->
+
+                <!-- about me area -->
+                <section class="about px-4 my-5" id="about_me">
+                    <div class="me py-5">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">Em formação</h5>
+                        <h1 class="text-uppercase font-staat font-size-34">Sobre mim</h1>
+                    </div>
+                    <div class="row m-0">
+                        <div class="col-sm-5 pl-0 item zoom-on-hover">
+                            <img src="./assets/perfilsobre nv.jpg" alt="profile image" class="img-fluid rounded-sm">
+                        </div>
+                        <div class="col-sm-6">
+                            <h6 class="text-uppercase font-os font-size-16 text-muted mt-1">SOBRE MIM</h6>
+                            <h5 class="font-ram font-size-20 py-2">I'm Glauber Magalhães & <span id="typed_2"></span>
+                            </h5>
+                            <p class="font-ram text-black-50 py-2">
+                                Olá! Eu sou Glauber Magalhães. Trabalho como desenvolvedor de interface e front end.
+                                Tenho paixão por pixel perfeito, mínimo e fácil de usar interfaces.
+                            </p>
+                            <div class="d-flex flex-row flex-wrap justify-content-between py-4">
+                                <div class="d-flex flex-colum">
+
+                                    <p class="font-ram"><b>Website: </b><span class="text-black-50">gdevl.com</span></p>
+                                    <!--<p class="font-ram"><b>Phone: </b><span class="text-black-50">+55 35
+                                            99892-6159</span>-->
+                                    </p>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <!--<p class="font-ram"><b>Degree: </b><span class="text-black-50">
+                                            assistant</span></p>-->
+                                    <p class="font-ram"><b>Mail: </b><span
+                                            class="text-black-50">contato@gdevl.com</span></p>
+                                    <p class="font-ram"><b>GitHub: </b><span class="text-black-50">Glauberf29</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="#footer">
+                                <button class="btn btn-dark text-uppercase text-center mr-3">Contato</button>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <!-- #about me area -->
+
+                <!-- ability -->
+                <section class="skill px-4 py-5 bg-light" id="services">
+                    <div class="ability py-3">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">ability</h5>
+                        <h1 class="text-uppercase font-staat font-size-34">My skills</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 pl-4">
+                            <p class="font-ram font-size-16 text-black-50 pb-3">
+                                Com algumas skills relacionado com infra de rede adquirido ao longe
+                                de 4anos trabalhando com telecomunicação.
+                            </p>
+                            <p class="font-ram font-size-16 text-black-50">
+                                Em formação com Web Developer.
+                            </p>
+                        </div>
+                        <div class="col-sm-6 bars">
+                            <div class="bar-1 mb-4">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <p class="font-ram font-size-16">Analista de Infraestrutura</p>
+                                    <span class="font-ram font-size-16">78%</span>
+                                </div>
+                                <div class="progress" style="height: 3px;">
+                                    <div class="progress-bar bgcolor-black" role="progressbar" style="width:78%"></div>
+                                </div>
+                            </div>
+                            <div class="bar-1 mb-4">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <p class="font-ram font-size-16">Gestão de infraestrutura de Ti</p>
+                                    <span class="font-ram font-size-16">80%</span>
+                                </div>
+                                <div class="progress" style="height: 3px;">
+                                    <div class="progress-bar bgcolor-black" role="progressbar" style="width:80%"></div>
+                                </div>
+                            </div>
+                            <div class="bar-1 mb-4">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <p class="font-ram font-size-16">Active Directory </p>
+                                    <span class="font-ram font-size-16">50%</span>
+                                </div>
+                                <div class="progress" style="height: 3px;">
+                                    <div class="progress-bar bgcolor-black" role="progressbar" style="width:35%"></div>
+                                </div>
+                            </div>
+                            <div class="bar-1 mb-4">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <p class="font-ram font-size-16">HTML</p>
+                                    <span class="font-ram font-size-16">48%</span>
+                                </div>
+                                <div class="progress" style="height: 3px;">
+                                    <div class="progress-bar bgcolor-black" role="progressbar" style="width:48%"></div>
+                                </div>
+                            </div>
+                            <div class="bar-1 mb-4">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <p class="font-ram font-size-16">PHP</p>
+                                    <span class="font-ram font-size-16">05%</span>
+                                </div>
+                                <div class="progress" style="height: 3px;">
+                                    <div class="progress-bar bgcolor-black" role="progressbar" style="width:05%"></div>
+                                </div>
+                            </div>
+
+                            <div class="bar-1 mb-4">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <p class="font-ram font-size-16">JavaScript</p>
+                                    <span class="font-ram font-size-16">09%</span>
+                                </div>
+                                <div class="progress" style="height: 3px;">
+                                    <div class="progress-bar bgcolor-black" role="progressbar" style="width:09%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- #ability -->
+
+                <!-- #education -->
+                <!--<section class="education-area px-4 py-5">
+
+                    <div class="education group py-3">
+                        <div class="heading">
+                            <h5 class="text-uppercase font-os font-size-16 text-muted">cursos current</h5>
+                            <h1 class="text-uppercase font-staat font-size-34">Education</h1>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>Imersão GameDev</h4>
+                                    <h4 class="organization">Alura&nbsp;</h4>
+                                </div>
+                                <div class="col-6"></div>
+                            </div>
+                            <p class="font-ram font-size-16 text-black-50 pb-3">Na Imersão&nbsp;<strong>você vai criar e
+                                    colocar no ar o seu próprio
+                                    jogo</strong>.<br></p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>Imersão Html + Css</h4>
+                                    <h4 class="organization font-ram py-4">Alura&nbsp;</h4>
+                                </div>
+                                <div class="col-6"></div>
+                            </div>
+                            <p class="font-ram font-size-16 text-black-50 pb-3">Basíco ao avançado em CSS e HTML puro
+                                sem
+                                network.</p>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>Curso Web Moderno Completo com JavaScript 2020 + Projetos</h4>
+                                    <h4 class="organization font-ram py-4">Udemy<br></h4>
+                                </div>
+                                <div class="col-md-6"></div>
+                            </div>
+                            <p class="font-ram font-size-16 text-black-50 pb-3">Domine Web, 14 Cursos + Projetos,
+                                Javascript, Angular, React, Vue, Node,
+                                HTML, CSS, jQuery, Bootstrap Webpack Gulp MySQL<br></p>
+                        </div>
+                    </div>
+                </section>-->
+                <!-- #education -->
+
+                <!-- services -->
+                <section class="services-area px-4 py-5">
+                    <div class="do py-5">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">O que eu faço</h5>
+                        <h1 class="text-uppercase font-staat font-size-34">Serviços</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 mb-4 text-center">
+                            <div class="panel border p-4">
+                                <span class="icon text-secondary"><i class="fas fa-laptop fa-3x"></i></span>
+                                <h4 class="font-ram py-4">Gestão de insfraestrutura de Ti</h4>
+                                <p class="font-ram font-size-16 text-black-50">
+                                    Basicamente, a gestão de infraestrutura de TI visa otimizar serviços, reduzir
+                                    custos, melhorar o fluxo de informações, garantir segurança dos dados, manter a
+                                    eficiência e, sobretudo, alinhar a TI com as metas de negócio.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mb-4 text-center">
+                            <div class="panel border p-4">
+                                <span class="icon text-secondary"><i class="far fa-lightbulb fa-3x"></i></span>
+                                <h4 class="font-ram py-4">Development</h4>
+                                <p class="font-ram font-size-16 text-black-50">
+                                    Desenvolvimento econômico é o processo pelo qual ocorre uma variação positiva das
+                                    "variáveis qualitativas", acompanhado de variações positivas das "variáveis
+                                    qualitativas"
+                                </p>
+                            </div>
+                        </div>
+                        <!--<div class="col-md-4 col-sm-6 mb-4 text-center">
+                            <div class="panel border p-4">
+                                <span class="icon text-secondary"><i class="fas fa-camera fa-3x"></i></span>
+                                <h4 class="font-ram py-4">Photography</h4>
+                                <p class="font-ram font-size-16 text-black-50">
+                                    A fotografia não é a obra final de um único criador. Ao longo da história, diversas
+                                    pessoas foram agregando conceitos e processos que deram origem à fotografia como a
+                                    conhecemos
+                                </p>
+                            </div>
+                        </div>-->
+
+                        <!-- <div class="col-md-4 col-sm-6 mb-4 text-center">
+                            <div class="panel border p-4">
+                                <span class="icon text-secondary"><i class="fas fa-chart-line fa-3x"></i></span>
+                                <h4 class="font-ram py-4">Markiting</h4>
+                                <p class="font-ram font-size-16 text-black-50">
+                                    Marketing ou mercadologia ou, mais raramente, mercância, é a arte de explorar, criar
+                                    e entregar valor para satisfazer as necessidades do mercado. São usados produtos ou
+                                    serviços que possam interessar aos consumidores
+                                </p>
+                            </div>
+                        </div>-->
+                        <div class="col-md-4 col-sm-6 mb-4 text-center">
+                            <div class="panel border p-4">
+                                <span class="icon text-secondary"><i class="fas fa-mobile-alt fa-3x"></i></span>
+                                <h4 class="font-ram py-4">Fully Responsive</h4>
+                                <p class="font-ram font-size-16 text-black-50">
+                                    Site ou layout responsivo, ou também conhecido como site flexível é quando o site
+                                    automaticamente se encaixa no dispositivo do usuário (PC, celular, tablet, etc). Um
+                                    site responsivo muda a sua aparência e disposição com base no tamanho da tela em que
+                                    o site é exibido.
+                                </p>
+                            </div>
+                        </div>
+                        <!--<div class="col-md-4 col-sm-6 mb-4 text-center">
+                            <div class="panel border p-4">
+                                <span class="icon text-secondary"><i class="fas fa-directions fa-3x"></i></span>
+                                <h4 class="font-ram py-4">Art Direction</h4>
+                                <p class="font-ram font-size-16 text-black-50">
+                                    O diretor de arte, ou editor de arte, é o profissional que, geralmente, gerencia a
+                                    atividade de design e concepção artística de um produto audiovisual, incorporando
+                                    uma série de funções, em publicidade, design editorial, internet, videogames /
+                                    videojogos, cinema e propaganda.
+                                </p>
+                            </div>
+                        </div>-->
+                    </div>
+                </section>
+                <!-- #services -->
+
+                <!-- reference -->
+                <!--<section class="reference bg-light py-5 px-4">
+                    <div class="refer py-3">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">Minha Reefência</h5>
+                        <h1 class="text-uppercase font-staat font-size-34">References</h1>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-sm-4 my-3">
+                            <img src="./assets/reffer/refer_1.jpg" alt="refer1" class="img-fluid">
+                        </div>
+                        <div class="col-sm-4 my-3">
+                            <img src="./assets/reffer/refer_2.jpg" alt="refer1" class="img-fluid">
+                        </div>
+                        <div class="col-sm-4 my-3">
+                            <img src="./assets/reffer/refer_3.jpg" alt="refer1" class="img-fluid">
+                        </div>
+                    </div>
+                </section>-->
+
+                <!-- #reference -->
+
+                <!-- work -->
+                <section class="work py-5 px-4" id="portfolio">
+                    <div class="py-3">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">Porfolio</h5>
+                        <h1 class="text-uppercase font-staat font-size-34">Trabalho Criativo</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 pb-4">
+                            <img src="./assets/work/jquery-logo.jpg" alt="work1" class="img-fluid">
+                        </div>
+                        <div class="col-sm-4 pb-4">
+                            <img src="./assets/work/bootstrap4.jpg" alt="work1" class="img-fluid">
+                        </div>
+                        <div class="col-sm-4 pb-4">
+                            <img src="./assets/work/jvs.jpg" alt="work1" class="img-fluid">
+                        </div>
+                        <div class="col-sm-4 pb-4">
+                            <img src="./assets/work/css.jpg" alt="work1" class="img-fluid">
+                        </div>
+                        <div class="col-sm-4 pb-4">
+                            <img src="./assets/work/html-1080x500.png" alt="work1" class="img-fluid">
+                        </div>
+                        <div class="col-sm-4 pb-4">
+                            <img src="./assets/work/infraRede.png" alt="work1" class="img-fluid">
+                        </div>
+                    </div>
+                </section>
+                <!-- #work -->
+
+                <!-- news -->
+                <section class="news py-5 px-4 bg-light" id="news">
+                    <div class="py-3">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">Ler</h5>
+                        <h1 class="text-uppercase font-staat font-size-34">Últimas Nóticias</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 my-3">
+                            <div class="card border-0">
+                                <img src="./assets/news/01.jpg" alt="news1" class="card-img-top">
+                                <div class="card-body">
+                                    <p class="font-ram font-size-16 text-black-50">no <b
+                                            class="text-uppercase text-dark">ESTILO DE VIDA</b></p>
+                                    <h5 class="card-title font-ram">Design Responsivo</h5>
+                                    <p class="cart-text text-black-50">
+                                        Assim, uma pessoa pode acessar uma página web de qualquer dispositivo —
+                                        computador, notebook, smartphone, tablet, entre outros — sem que haja perda na
+                                        usabilidade e na experiência do usuário.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 my-3">
+                            <div class="card border-0">
+                                <img src="./assets/news/02.jpg" alt="news1" class="card-img-top">
+                                <div class="card-body">
+                                    <p class="font-ram font-size-16 text-black-50">no <b
+                                            class="text-uppercase text-dark">ESTILO DE VIDA</b></p>
+                                    <h5 class="card-title font-ram">Estrutura de Bootstrap</h5>
+                                    <p class="cart-text text-black-50">
+                                        Estamos chegando a 700 ícones no Bootstrap Icons com o lançamento de hoje, Alpha
+                                        4! Passamos algum tempo no processo de compilação para melhorar algumas coisas,
+                                        adicionamos vários novos ícones e corrigimos alguns bugs e inconsistências.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 my-3">
+                            <div class="card border-0">
+                                <img src="./assets/news/03.jpg" alt="news1" class="card-img-top">
+                                <div class="card-body">
+                                    <p class="font-ram font-size-16 text-black-50">no <b
+                                            class="text-uppercase text-dark">Estilo de Vida</b></p>
+                                    <h5 class="card-title font-ram">Efeitos de animação</h5>
+                                    <p class="cart-text text-black-50">
+                                        Uma vez no site podemos escolher o efeito pretendido, entre os vários
+                                        disponíveis. Só temos que escolher, pressionar o botão "Edit This" (editar isto)
+                                        e depois preencher os vários campos para que possamos ter uma ideai do efeito
+                                        final...
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- #news -->
+
+                <footer id="footer" class="pt-5 px-3">
+                    <div id="contact_us">
+                        <div class="py-3 px-2">
+                            <h5 class="text-uppercase font-os font-size-16 text-muted">Localização</h5>
+                            <h1 class="text-uppercase font-staat font-size-34">Contato</h1>
+                        </div>
+                        <div class="row py-5">
+                            <div class="col-sm-6">
+                                <h6 class="text-uppercase font-ram font-size-16 text-dark">Glauber Magalhães company
+                                    Inc.</h6>
+                                <p class="font-ram w-50 font-size-16 text-black-50"></p>
+                                <!--<p class="font-ram font-size-16 text-black-50 pt-3">PHONE: +55 35 99892-6159</p>-->
+                                <p class="font-ram font-size-16 text-black-50">EMAIL: contato@gdevl.com</p>
+                                <p class="font-ram font-size-16 text-black-50">ENDEREÇO: Sapucaí Mirim, MG.
+                                    37690-000, BR.</p>
+                            </div>
+                            <div class="col-sm-6 py-4 px-4">
+                                <h6 class="text-uppercase font-ram font-size-16">ENTRAR EM CONTATO</h6>
+                                <form action="" class="py-3">
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="text" name="nome" class="form-control" placeholder="Name">
+                                        </div>
+                                        <div class="col">
+                                            <input type="email" name="email" class="form-control" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <textarea name="" id="" cols="30" rows="3" name="mensagem" class="form-control my-4"
+                                        placeholder="Message"></textarea>
+                                    <button type="submit" class="btn btn-dark">Enviar!</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row bg-light py-5">
+                            <div class="col-sm-4 my-5 text-center">
+                                <h6 class="font-ram font-size-16 text-black-50">&copy;2020 Glauber Magalhães. All rights
+                                    reserved
+                                </h6>
+                            </div>
+                            <div class="col-sm-4 my-4 text-center">
+                                <div class="footer-title">
+                                    <a href="#" class="navbar-brand font-staat font-size-40 text-dark"></a>
+                                    <p class="description font-os font-size-16 text-black-50 text-uppercase">Glauber
+                                        Magalhães</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 my-5 text-center">
+                                <a
+                                    href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
+                                    <span class="mr-3"><i class="fab fa-linkedin-in"></i></span>
+                                </a>
+                                <a href="https://github.com/Glauberf29">
+                                    <span class="mr-3"><i class="fab fa-github"></i></span>
+                                </a>
+                                <a href="https://www.instagram.com/glaubeerm">
+                                    <span class="mr-3"><i class="fab fa-instagram"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+        integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+
+    <script src="./vendor/typed/typed.min.js"></script>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
